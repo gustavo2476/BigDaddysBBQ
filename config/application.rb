@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module BigDaddys
+module BigDaddysBBQ
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
@@ -15,6 +15,4 @@ module BigDaddys
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
   end
-
-Rails.application.config.assets.paths << "#{Rails.root}/app/assets/videos"
 end
