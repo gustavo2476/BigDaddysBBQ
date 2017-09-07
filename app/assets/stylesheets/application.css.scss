@@ -1,0 +1,347 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap-sprockets";
+@import "bootstrap";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+	font-family: tahoma;
+}
+
+.background-wrap {
+	background-position: center;
+	background-size: cover;
+	/*height: 100vh;*/
+	width: 100%;
+	
+}
+
+#video-bg-elem {
+	height: 715px;
+	z-index: -2;
+	position: relative;
+    opacity: 0.9;
+	
+
+
+}
+
+
+header {
+
+	
+}
+
+.hero {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h1 {
+	color: #f2f2f2;
+	font-size: 400%;
+	text-align: center;
+	margin-top: 20px;
+	
+
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 500;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 7px;
+    text-decoration: none;
+    /*margin-left: 170px;*/
+}
+
+.navbar a:hover {
+	box-shadow: inset 0 0 0 25px #ff4d4d;
+
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.logo {
+	float: right;
+	width: 60px;
+	height: 60px;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+
+h1 {
+    animation: fadeInOut1 3s ease reverse forwards infinite
+}
+
+h1 {
+    animation: fadeInOut2 3s ease reverse forwards infinite
+}
+
+h1 {
+    animation: fadeInOut3 3s ease reverse forwards infinite
+}
+
+h1 {
+    animation: fadeInOut4 3s ease reverse forwards infinite
+}
+
+h1 {
+    animation: fadeInOut5 3s ease reverse forwards infinite
+}
+
+h1 {
+    animation: fadeInOut6 3s ease reverse forwards infinite
+}
+
+@keyframes fadeInOut1 {
+    0% { opacity: 0 }
+    1% { opacity: 1 }
+    14% {opacity: 1 }
+    16% { opacity: 0 }
+}
+
+@keyframes fadeInOut2 {
+    0% { opacity: 0 }
+    14% {opacity: 0 }
+    16% { opacity: 1 }
+    30% { opacity: 1 }
+    33% { opacity: 0 }
+}
+
+@keyframes fadeInOut3 {
+    0% { opacity: 0 }
+    30% {opacity: 0 }
+    33% {opacity: 1 }
+    46% { opacity: 1 }
+    48% { opacity: 0 }
+}
+
+@keyframes fadeInOut4 {
+    0% { opacity: 0 }
+    46% { opacity: 0 }
+    48% { opacity: 1 }
+    64% { opacity: 1 }
+    65% { opacity: 0 }
+}
+
+@keyframes fadeInOut5 {
+    0% { opacity: 0 }
+    64% { opacity: 0 }
+    66% { opacity: 1 }
+    80% { opacity: 1 }
+    83% { opacity: 0 }
+}
+
+@keyframes fadeInOut6 {
+    80% { opacity: 0 }
+    83% { opacity: 1 }
+    99% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+h3 {
+	text-align: center;
+	
+}
+
+.about h3 {
+	margin-top: 80px;
+	margin-bottom: -10px;
+	font-size: 300%;
+}
+
+.about h4:after {
+	width: 200px;
+	height: 3px;
+	background-color: #ff4d4d;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px; 
+}
+
+.smoked {
+	width: 70%;
+	margin-left: 15%;
+	text-align: justify;
+	text-align: center;
+	margin-bottom: 50px;
+	line-height: 30px;
+	margin-top: -30px;
+}
+
+.family {
+	width: 70%;
+	margin-left: 15%;
+	text-align: justify;
+	text-align: center;
+	line-height: 30px;
+	
+}
+
+
+.menu h3 {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-size: 300%;
+}
+
+h4 {	
+	text-align: center;
+	
+
+}
+
+.menu h4:after {
+	width: 200px;
+	height: 3px;
+	background-color: #ff4d4d;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px; 
+
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+}
+
+.col-md-3 {
+	margin-top: 40px;
+	
+
+}
+
+.col-md-1 {
+	margin-top: 40px;
+}
+
+
+
+.Contact h3 {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-size: 300%;
+	color: white;
+
+}
+
+.Contact h4 {
+	color: white;
+}
+
+.Contact h4:after {
+	width: 200px;
+	height: 3px;
+	background-color: #ff4d4d;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px; 
+}
+
+.events {
+	font-size: 140%;
+	color: white;
+}
+
+.event-container {
+	color: white;
+
+
+}
+
+ 
+
+.contact-container {
+	background: url("/assets/trailer.jpg") no-repeat center center fixed;
+position: relative;	
+z-index: 1;
+opacity: 0.7S;
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+   
+
+}
+
+.contact-words {
+	color: black;
+	
+}
+
+.ribs {
+	width: 200px;
+	height: 150px;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: #333;
+  text-align: center;
+  font-weight: 40%;
+  color: white;
+}
+
+.card img {
+	 margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+
